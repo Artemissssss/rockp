@@ -234,39 +234,39 @@ if (arr.indexOf(userChoise) === arr.indexOf(computersChoice)) {
   alert(`Ніхто не програв і не виграв. Бо ви з комп'ютером вибрали ${(arr[randomNumber])}.`);
 } else if (userChoise == "камінь") {
   if (computersChoice == "папір" || computersChoice =="колодязь") {
-    alert(`Ти програв бо комп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти програв, бо комп'ютер вибрав ${arr[randomNumber]}.`);
   } else {
-    alert(`Ти виграв бо обрав ${userChoise} а коп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
   }
 } else if (userChoise == "ножиці") {
   if (computersChoice == "камінь" || computersChoice =="людина" || computersChoice =="вовк" || computersChoice =="колодязь") {
-    alert(`Ти програв бо комп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти програв, бо комп'ютер вибрав ${arr[randomNumber]}.`);
   } else {
-    alert(`Ти виграв бо обрав ${userChoise} а коп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
   }
 } else if (userChoise == "папір") {
   if (computersChoice == "ножиці" || computersChoice == "людина" || computersChoice =="вовк") {
-    alert(`Ти програв бо комп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти програв, бо комп'ютер вибрав ${arr[randomNumber]}.`);
   } else {
-    alert(`Ти виграв бо обрав ${userChoise} а коп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
   }
 } else if (userChoise == "людина") {
   if (computersChoice == "вовк" || computersChoice =="камінь" || computersChoice =="колодязь") {
-    alert(`Ти програв бо комп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти програв, бо комп'ютер вибрав ${arr[randomNumber]}.`);
   } else {
-    alert(`Ти виграв бо обрав ${userChoise} а коп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
   }
 } else if (userChoise == "колодязь") {
   if (computersChoice == "папір") {
-    alert(`Ти програв бо комп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти програв, бо комп'ютер вибрав ${arr[randomNumber]}.`);
   } else {
-    alert(`Ти виграв бо обрав ${userChoise} а коп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
   }
 } else if (userChoise == "вовк") {
   if (computersChoice =="камінь" || computersChoice =="колодязь") {
-    alert(`Ти програв бо комп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти програв, бо комп'ютер вибрав ${arr[randomNumber]}.`);
   } else {
-    alert(`Ти виграв бо обрав ${userChoise} а коп'ютер вибрав ${arr[randomNumber]}.`);
+    alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
   }
 }else {
   alert("Спробуй ще раз! Бо ти неправильно вів значення!");

@@ -229,7 +229,7 @@ while (aa>=1) {
 const randomNumber = Math.round(Math.random() * (arr.length - 1));
 let computersChoice = arr[randomNumber];
 // alert(computersChoice,arr[randomNumber]);
-let userChoise = prompt("Це гра 'Камінь, ножиці, папір' з деякими змінами. Вибирай: камінь,ножиці,папір,людина,колодязь,вовк.Щоб зупинити гру напиши Стоп");
+let userChoise = prompt("Це гра 'Камінь, ножиці, папір' з деякими змінами. Вибирай: камінь,ножиці,папір,людина,колодязь,вовк. Щоб зупинити гру напиши Стоп.");
 if (arr.indexOf(userChoise) === arr.indexOf(computersChoice)) {
   alert(`Ніхто не програв і не виграв. Бо ви з комп'ютером вибрали ${(arr[randomNumber])}.`);
 } else if (userChoise == "камінь") {

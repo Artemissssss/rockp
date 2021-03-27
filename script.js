@@ -267,7 +267,7 @@ if (arr.indexOf(userChoise) === arr.indexOf(computersChoice)) {
     alert(`Ти програв, бо комп'ютер вибрав ${arr[randomNumber]}.`);
   } else {
     alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
-  } else if (userChoise == "пістолет") {
+  }} else if (userChoise == "пістолет") {
   if (computersChoice =="камінь" || computersChoice =="колодязь") {
     alert(`Ти програв, бо комп'ютер вибрав ${arr[randomNumber]}.`);
   } else {

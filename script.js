@@ -273,7 +273,7 @@ if (arr.indexOf(userChoise) === arr.indexOf(computersChoice)) {
   } else {
     alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
   }
-} else if(userChoise == "Стоп"){
+} else if(userChoise == "Стоп" || userChoise == "стоп"){
           i = 0;
  }else {
   alert("Спробуй ще раз! Бо ти неправильно вів значення!");

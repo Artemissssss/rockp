@@ -223,13 +223,13 @@
 // console.log(arr[randomNumber]);
 // console.log(arr[randomNumber]);
 
-const arr = ["ножиці", "папір", "людина", "колодязь", "вовк","камінь",];
+const arr = ["ножиці", "папір", "людина", "колодязь", "вовк","камінь","пістолет",];
 let aa = 1;
 while (aa>=1) {
 const randomNumber = Math.round(Math.random() * (arr.length - 1));
 let computersChoice = arr[randomNumber];
 // alert(computersChoice,arr[randomNumber]);
-let userChoise = prompt("Це гра 'Камінь, ножиці, папір' з деякими змінами. Вибирай: камінь,ножиці,папір,людина,колодязь,вовк. Щоб зупинити гру напиши Стоп.");
+let userChoise = prompt("Це гра 'Камінь, ножиці, папір' з деякими змінами. Вибирай: камінь,ножиці,папір,людина,колодязь,вовк,пістолет. Щоб зупинити гру напиши Стоп.");
 if (arr.indexOf(userChoise) === arr.indexOf(computersChoice)) {
   alert(`Ніхто не програв і не виграв. Бо ви з комп'ютером вибрали ${(arr[randomNumber])}.`);
 } else if (userChoise == "камінь") {
@@ -263,6 +263,11 @@ if (arr.indexOf(userChoise) === arr.indexOf(computersChoice)) {
     alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
   }
 } else if (userChoise == "вовк") {
+  if (computersChoice =="камінь" || computersChoice =="колодязь") {
+    alert(`Ти програв, бо комп'ютер вибрав ${arr[randomNumber]}.`);
+  } else {
+    alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
+  } else if (userChoise == "пістолет") {
   if (computersChoice =="камінь" || computersChoice =="колодязь") {
     alert(`Ти програв, бо комп'ютер вибрав ${arr[randomNumber]}.`);
   } else {

@@ -223,7 +223,7 @@
 // console.log(arr[randomNumber]);
 // console.log(arr[randomNumber]);
 
-const arr = ["ножиці", "папір", "людина", "колодязь", "вовк","камінь","пістолет",];
+const arr = ["ножиці", "папір", "людина", "колодязь", "вовк","камінь","пістолет"];
 let aa = 1;
 while (aa>=1) {
 const randomNumber = Math.round(Math.random() * (arr.length - 1));

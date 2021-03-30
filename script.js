@@ -252,7 +252,7 @@ if (arr.indexOf(userChoise) === arr.indexOf(computersChoice)) {
     alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
   }
 } else if (userChoise == "людина") {
-  if (computersChoice == "вовк" || computersChoice =="камінь" || computersChoice =="колодязь") {
+  if (computersChoice == "вовк" || computersChoice =="камінь" || computersChoice =="колодязь" || computerChoice == "пістолет") {
     alert(`Ти програв, бо комп'ютер вибрав ${arr[randomNumber]}.`);
   } else {
     alert(`Ти виграв, бо обрав ${userChoise}, а коп'ютер вибрав ${arr[randomNumber]}.`);
